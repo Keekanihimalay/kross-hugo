@@ -2,7 +2,7 @@ baseURL = "https://himag-consultings-build.netlify.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross | Hugo Portfolio Template"
+title = "Himag Consulting"
 [[menu.main]]
 URL = "about"
 name = "About"
