@@ -25,8 +25,14 @@ sections:
 - type: document
   path: exampleSite/content/service/_index.md
   label: Service Page
-  match: "**/*"
-  read_only: false
+- type: directory
+  path: exampleSite/content/service
+  label: Service Post
+  create: documents
+  match: "*"
+  exclude: _index.md
+  templates:
+  - post
 - type: heading
   label: Portfolio
 - type: document
