@@ -10,18 +10,22 @@ weight = 5
 [[menu.main]]
 URL = "contact"
 name = "Contact"
+url = "https://www.himagconsulting.com/contactt"
 weight = 4
 [[menu.main]]
 URL = "portfolio"
 name = "Portfolio"
+url = "https://www.himagconsulting.com/portfolio"
 weight = 3
 [[menu.main]]
 URL = "blog"
 name = "Blog"
+url = "https://www.himagconsulting.com/blog"
 weight = 2
 [[menu.main]]
 URL = "about"
 name = "About"
+url = "https://www.himagconsulting.com/about"
 weight = 1
 [params]
 address = "125/A, CA Commercial Area, California, USA"
