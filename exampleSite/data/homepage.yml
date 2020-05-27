@@ -138,3 +138,7 @@ clients_logo_slider:
 blog:
   enable: true
   title: Blogs
+menu:
+  main:
+    name: Home
+    weight: 1
