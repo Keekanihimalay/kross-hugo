@@ -21,6 +21,13 @@ sections:
   templates:
   - post
 - type: heading
+  label: Service
+- type: document
+  path: exampleSite/content/service/_index.md
+  label: Service Page
+  match: "**/*"
+  read_only: false
+- type: heading
   label: Portfolio
 - type: document
   path: exampleSite/content/portfolio/_index.md
