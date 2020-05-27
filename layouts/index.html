@@ -160,7 +160,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <h2 class="section-title">{{ .Site.Data.homepage.service.title | markdownify }}</h2>
         </div>
         {{ range .item }}
         <div class="col-md-4 mb-4">
@@ -175,6 +175,8 @@
         {{ end }}
       </div>
     </div>
+    <!-- bg image -->
+    <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
   </section>
   <!-- /services -->
   {{ end }}
