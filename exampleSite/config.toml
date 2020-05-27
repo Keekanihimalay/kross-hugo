@@ -6,7 +6,7 @@ title = "Himag Consulting"
 [[menu.main]]
 URL = "home"
 name = "Home"
-weight = ""
+weight = "7"
 [[menu.main]]
 URL = "about"
 name = "About"
