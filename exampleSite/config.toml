@@ -4,9 +4,9 @@ summaryLength = "10"
 theme = "kross-hugo"
 title = "Himag Consulting"
 [[menu.main]]
-URL = "Services"
+URL = "services"
 name = "Services "
-weight = ""
+weight = "1"
 [[menu.main]]
 URL = "about"
 name = "About"
