@@ -1,27 +1,32 @@
-baseURL = "https://himag-consultings-build.netlify.com"
+baseURL = "https://himagconsulting.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
 title = "Himag Consulting"
 [[menu.main]]
-URL = "about"
-name = "About"
-weight = 1
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 2
-[[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
-weight = 3
+name = "Service"
+url = "https://www.himagconsulting.com/Service"
+weight = 5
 [[menu.main]]
 URL = "contact"
 name = "Contact"
+url = "https://www.himagconsulting.com/contactt"
 weight = 4
 [[menu.main]]
-name = "Service"
-weight = 5
+URL = "portfolio"
+name = "Portfolio"
+url = "https://www.himagconsulting.com/portfolio"
+weight = 3
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+url = "https://www.himagconsulting.com/blog"
+weight = 2
+[[menu.main]]
+URL = "about"
+name = "About"
+url = "https://www.himagconsulting.com/about"
+weight = 1
 [params]
 address = "125/A, CA Commercial Area, California, USA"
 author = "Himag Consulting"
@@ -29,7 +34,7 @@ copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothe
 description = "This is meta description"
 email = "keekanihimalay@email.com"
 google_analytics_id = ""
-home = "Home"
+home = "Home "
 logo = "images/logo.png"
 phone = "+880 2544 658 256"
 theme_color = "#F8CF83"
