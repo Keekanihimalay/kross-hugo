@@ -10,7 +10,7 @@ weight = 5
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-url = "https://www.himagconsulting.com/contactt"
+url = "https://www.himagconsulting.com/contact"
 weight = 4
 [[menu.main]]
 URL = "portfolio"
