@@ -32,7 +32,7 @@ sections:
   match: "*"
   exclude: _index.md
   templates:
-  - post
+  - service
 - type: heading
   label: Portfolio
 - type: document
