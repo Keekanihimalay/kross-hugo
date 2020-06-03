@@ -48,6 +48,7 @@ fields:
     - type: text
       name: color
       label: color
+  hidden: true
 - type: field_group
   name: experience
   label: experience
