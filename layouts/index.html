@@ -9,9 +9,8 @@
               <li class="mb-3"><a class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
               {{ end }}
         </ul>
+      </div>
           <!-- /social icon -->
-<<<<<<< HEAD
-
          
     <div class="container">
       <div class="row">
@@ -20,33 +19,8 @@
         </div>
         
       </div>
-=======
-    {{ if .Site.Data.homepage.service.enable }}
-  {{ with .Site.Data.homepage.service }}
-         
-     <div class="container">
-       <div class="row">
-          <div class="col-12 text-center">
-            <h2 class="section-title">{{ .title | markdownify }}</h2>
-         </div>
-         {{ range .item }}
-         <div class="col-md-4 mb-4">
-            <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
-              <div class="card-body text-center px-4 py-5">
-                <i class="{{.icon }} icon mb-5 d-inline-block"></i>
-                <h4 class="mb-4">{{.title}}</h4>
-                <p>{{.content | markdownify}}</p>
-              </div>
-            </div>
-         </div>
-         {{ end }}
-        </div>
->>>>>>> 4a1732a1104ce31cbcd930e48026fee393f6bfc4
-    </div>
-    <!-- bg image -->
-    <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
-    </div>
-  </section>
+          </div>
+</section>
   <!-- /hero area -->
 
   {{ if .Site.Data.homepage.about.enable }}
